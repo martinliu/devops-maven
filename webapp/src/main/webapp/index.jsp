@@ -14,9 +14,10 @@
     </head>
 
     <body>
+
         <div class="container">
             <div class="hero-unit">
-              <img src="asserts/img/maxresdefault.jpg" alt="DevOps" />
+                <img src="assets/img/maxresdefault.jpg" alt="DevOps" />
                 <h1>Simple Java App</h1>
                 <h2>Congratulations!</h2>
                 <p>Your Java application is now running on host;in your own dedicated environment for this DEMO.</p>
