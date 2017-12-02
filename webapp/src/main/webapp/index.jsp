@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<%@ page language="java" import="java.util.*"%>
-<%@ page contentType="text/html; charset=gb2312"%>
+<%@ page language="java" import="java.util.*" contentType="text/html; charset=gb2312"%>
 <html>
-
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta http-equiv="Content-Type" content="text/html charset=gb2312">
