@@ -19,7 +19,7 @@
             <div class="hero-unit">
 
               <img src="assets/img/DevOpsCoach-logo.png" alt="DevOps" />
-                <img src="assets/img/maxresdefault.jpg" alt="DevOps" />
+
                 <h1>Simple Java App</h1>
                 <h2>Congratulations!</h2>
                 <p>Your Java application is now running on host;in your own dedicated environment for this DEMO.</p>
@@ -86,16 +86,7 @@
           %>
           </table>
 
-          <form id="formToTC" action="http://xxx.com/login" method="post">
-              Username: <input id="username" name="username" required="true" type="text" value=""/>
-              <br/> <br/>
-              Password: <input id="password" name="password" required="true" type="text" value=""/>
-              <br/> <br/>
-           <input type="hidden" name="serverip" value= <%=request.getLocalAddr()%> />
-              <input type="submit" value="Login" class="btn btn-primary"/>
-              <br/>
-              <span style="color:red;"></span>
-          </form>
+            <img src="assets/img/maxresdefault.jpg" alt="DevOps" />
             </div>
         </div>
 
