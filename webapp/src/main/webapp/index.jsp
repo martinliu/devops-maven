@@ -17,6 +17,8 @@
 
         <div class="container">
             <div class="hero-unit">
+
+              <img src="assets/img/DevOpsCoach-logo.png" alt="DevOps" />
                 <img src="assets/img/maxresdefault.jpg" alt="DevOps" />
                 <h1>Simple Java App</h1>
                 <h2>Congratulations!</h2>
