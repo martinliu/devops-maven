@@ -2,8 +2,7 @@
 
 For training
 
-<<<<<<< HEAD
-This is something. old
-=======
-This is a test 
->>>>>>> 8f1bde37238cde32c8d7e8654d692c9d48b9093a
+* Dockerfile 用Tomcat镜像运行Staging和生产环境部署
+* 用Tomcat服务运行QA环境
+* index.jsp中文显示有问题
+* Greeter.java有一些代码格式和编码告警
