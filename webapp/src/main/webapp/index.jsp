@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<%@ page language="java" import="java.util.*" pageEncoding="GBK"%>
+<%@ page language="java" import="java.util.*" pageEncoding="gb2312"%>
 <html lang="en">
 
     <head>
