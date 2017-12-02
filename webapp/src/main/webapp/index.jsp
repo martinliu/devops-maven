@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <%@ page language="java" import="java.util.*" pageEncoding="gb2312"%>
+<%@ page contentType="text/html;charset=iso8859-1"%>
 <html>
 
     <head>
