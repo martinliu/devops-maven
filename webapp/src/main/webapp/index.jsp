@@ -23,7 +23,7 @@
 
                 <h1>Simple Java App</h1>
                 <h2>Congratulations!</h2>
-                <h3>我修改了这个页面</h3>
+                <h3><%out.print("我修改了这个页面");%></h3>
                 <p>Your Java application is now running on host;in your own dedicated environment for this DEMO.</p>
                 <p>Check below for server details:</p>
 
