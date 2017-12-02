@@ -4,9 +4,8 @@
 <html>
 
     <head>
-        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-          <meta http-equiv="Content-Type" content="text/html charset=gb2312">
+        <meta http-equiv="Content-Type" content="text/html charset=gb2312">
         <title>Simple Java App</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
