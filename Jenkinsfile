@@ -30,11 +30,9 @@ pipeline {
                         }    
                     }
 
-                    stage ("Run Static Analysis"){
+                    stage ('Run Static Analysis'){
                         steps{
                             sh 'mvn clean checkstyle:checkstyle'
-                        }
-                        steps{
                             checkstyle canComputeNew: false, defaultEncoding: '', healthy: '', pattern: '', unHealthy: ''
                         }
                     }
