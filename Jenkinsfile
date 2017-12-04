@@ -32,7 +32,7 @@ pipeline {
 
                     stage ("Run Static Analysis"){
                         steps{
-                            sh 'nvn clean checkstyle:checkstyle'
+                            sh 'mvn clean checkstyle:checkstyle'
                         }
                         steps{
                             checkstyle canComputeNew: false, defaultEncoding: '', healthy: '', pattern: '', unHealthy: ''
