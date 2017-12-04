@@ -23,7 +23,7 @@ pipeline {
             }
             stage('Deploy to QA'){
                 parallel{
-                    stage ('Deploy to QA'){
+                    stage ('Run docker in QA'){
                         steps {
                             sh '''sudo docker rm -f devops-maven-java-app1-qa
                                 sudo docker run -d --name devops-maven-java-app1-qa -p 9181:8080 martinliu/devops-maven-java'''
@@ -39,5 +39,26 @@ pipeline {
                     
                 }
             }
+
+            stage('Deploy to Staging'){
+                steps {
+                    timeout(time:5, unit:'DAYS'){
+                        input message: 'Approve Staging Deployment?'
+                    }
+
+                    sh '''sudo docker rm -f devops-maven-java-app1-qa
+                                sudo docker run -d --name devops-maven-java-app1 -p 9180:8080 martinliu/devops-maven-java'''
+                }
+                post{
+                    success{
+                        echo 'Code deployed to Staging.'
+                    }
+
+                    failure {
+                        echo 'Depmoyment failed.'
+                    }
+                }
+            }
+
         }    
 }
