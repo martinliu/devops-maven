@@ -7,7 +7,7 @@ pipeline {
         stages{
             stage('Build'){
                 steps {
-                    sh '''sudo  mvn clean package
+                    sh '''mvn clean package
                         sudo docker images
                         sudo docker build -t martinliu/devops-maven-java:b${BUILD_NUMBER} .
                         sudo docker push martinliu/devops-maven-java:b${BUILD_NUMBER}
