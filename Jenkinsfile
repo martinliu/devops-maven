@@ -46,7 +46,7 @@ pipeline {
                         input message: 'Approve Staging Deployment?'
                     }
 
-                    sh '''sudo docker rm -f devops-maven-java-app1-qa
+                    sh '''sudo docker rm -f devops-maven-java-app1
                                 sudo docker run -d --name devops-maven-java-app1 -p 9180:8080 martinliu/devops-maven-java'''
                 }
                 post{
