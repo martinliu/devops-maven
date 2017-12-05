@@ -33,8 +33,13 @@ pipeline {
                     stage ('Run Static Analysis'){
                         steps{
                             sh 'mvn clean checkstyle:checkstyle'
-                            checkstyle canComputeNew: false, defaultEncoding: '', healthy: '', pattern: '', unHealthy: ''
                         }
+                        post{
+                            success {
+                                echo 'Update Checkstyle Report....'
+                                checkstyle canComputeNew: false, defaultEncoding: '', healthy: '', pattern: '', unHealthy: ''
+                    }
+                }
                     }
                     
                 }
