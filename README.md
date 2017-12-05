@@ -1,8 +1,17 @@
-# maven-project
+#DevOps必修课系列
 
-For training
+##01 Jenkins篇 v1.0
 
-* Dockerfile 用Tomcat镜像运行Staging和生产环境部署
-* 用Tomcat服务运行QA环境
-* index.jsp中文显示有问题
-* Greeter.java有一些代码格式和编码告警
+用到的工具和环境概述如下：
+
+* JDK openjdk-1.8.0.151
+* Maven 3.5.2   
+* Jenkins 2.73.3
+    * Checkstyle Plug-in
+    * Copy Artifact Plugin
+    * Git plugin
+    * GitHub plugin
+    * Maven Integration plugin
+    * Pipeline
+* Docker CE
+

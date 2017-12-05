@@ -1,5 +1,4 @@
 <%@ page language="java" import="java.util.*" contentType="text/html; charset=gb2312"%>
-
 <%
                 String SERVER_NAME = request.getServerName();
                 String SERVER_ADDR = request.getLocalAddr();
