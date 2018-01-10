@@ -14,4 +14,5 @@
     * Maven Integration plugin
     * Pipeline
 * Docker CE
+* Test
 
