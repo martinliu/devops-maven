@@ -13,6 +13,7 @@
     * GitHub plugin
     * Maven Integration plugin
     * Pipeline
+    * Slack Notafaction
 * Docker CE
 * 访问路径  http://ip:port/webapp/
 * Add Slack notifacation
