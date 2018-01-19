@@ -15,6 +15,8 @@
     * Pipeline
 * Docker CE
 * 访问路径  http://ip:port/webapp/
+* Add Slack notifacation
+
 
 ## Jenkins 文件介绍
 
