@@ -63,8 +63,8 @@
               <img src="assets/img/DevOpsCoach-logo.png" alt="DevOps" />
 
                 <h1>Simple Java App</h1>
-                <h2>Congratulations! Demo  CMCC   </h2>
-                <h3><%out.print("This should be Zhongwen.");%></h3>
+                <h2>Congratulations! Demo at Nan Jing </h2>
+                <h3><%out.print("DevOps is good..");%></h3>
                 <p>Your Java application is now running on host;in your own dedicated environment for this DEMO.</p>
                 <p>Check below for server details:</p>
 
