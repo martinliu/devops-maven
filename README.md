@@ -4,8 +4,8 @@
 
 用到的工具和环境概述如下：
 
-* JDK openjdk-1.8.0.151
-* Maven 3.5.2   
+* JDK openjdk-1.8
+* Maven 3
 * Jenkins 2.73.3
     * Checkstyle Plug-in
     * Copy Artifact Plugin
@@ -14,9 +14,7 @@
     * Maven Integration plugin
     * Pipeline
     * Slack Notafaction
-* Docker CE
 * 访问路径  http://ip:port/webapp/
-* Add Slack notifacation
 
 
 ## Jenkins 文件介绍
