@@ -6,7 +6,7 @@
 
 * JDK openjdk-1.8
 * Maven 3
-* Jenkins 2.73.3
+* Jenkins 2
     * Checkstyle Plug-in
     * Copy Artifact Plugin
     * Git plugin
