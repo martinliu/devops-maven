@@ -14,7 +14,7 @@
     * Maven Integration plugin
     * Pipeline
     * Slack Notafaction
-* 访问路径  http://ip:port/webapp/
+* 访问路径  http://ip:9090/webapp/
 
 
 ## Jenkins 文件介绍
