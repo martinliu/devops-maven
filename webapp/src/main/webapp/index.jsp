@@ -1,1 +1,1 @@
-Hello, World! 环境已经ok了！
+Hello, World!
