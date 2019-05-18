@@ -8,13 +8,13 @@
 * Maven 3
 * Jenkins 2
     * Checkstyle Plug-in
-    * Copy Artifact Plugin
     * Git plugin
     * GitHub plugin
     * Maven Integration plugin
     * Pipeline
     * Slack Notafaction
-* 访问路径  http://ip:9090/webapp/
+* 访问路径  Staging http://ip:8050/webapp/
+* 访问路径  Production http://ip:8060/webapp/
 
 
 ## Jenkins 文件介绍
