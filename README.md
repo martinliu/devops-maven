@@ -15,7 +15,7 @@
     * Slack Notafaction
 * 访问路径  Staging http://ip:8050/webapp/
 * 访问路径  Production http://ip:8060/webapp/
-* 增加触发静态检
+* 增加触发静态检 skdfalskf
 
 
 ## Jenkins 文件介绍
