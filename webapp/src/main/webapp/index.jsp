@@ -1,1 +1,1 @@
-Hello, Jinan!
+Hello, Jinan - release version 2.0 !
