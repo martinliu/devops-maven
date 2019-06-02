@@ -1,1 +1,1 @@
-Hello, Jinan - release version 2.0 !
+Hello, World!
